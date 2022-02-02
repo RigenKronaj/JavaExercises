@@ -64,6 +64,7 @@ public class Weather {
         return location;
     }
 
+    @Override
     public String toString() {
         return "The weather in location: " + location.getName() + " is " + name + ", the temperature is " + temperature + ", the humiditiy is " + humidity + ", the wind speed is " + windSpeed + " and the precipitation is " + precipitation;
     }
