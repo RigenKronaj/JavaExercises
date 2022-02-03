@@ -1,10 +1,15 @@
 {
     "java.project.sourcePaths": [
         "Java Basics/OOPExercises/WeatherForecast",
+        "Java Basics/OOPExercises/Exercise9",
+        "Java Basics/OOPExercises/Exercise8",
+        "Java Basics/OOPExercises/Exercise7",
+        "Java Basics/OOPExercises/Exercise5",
+        "Java Basics/OOPExercises/Exercise4",
         "Java Basics/OOPExercises/Exercise3",
         "Java Basics/OOPExercises/Exercise2",
+        "Java Basics/OOPExercises/Exercise10",
         "Java Basics/Exercises/src",
-        "Java Basics/OOPExercises/Exercise4",
-        "Java Basics\\OOPExercises\\Exercise5"
+        "Java Basics/OOPExercises/BookAuthor"
     ]
 }

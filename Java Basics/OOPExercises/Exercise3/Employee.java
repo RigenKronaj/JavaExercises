@@ -1,8 +1,11 @@
 public class Employee {
+
+    // Declaring the attributes of the employee class
     private String firstName;
     private String lastName;
     public double salary;
 
+    // Declaring the overload constructor
     public Employee(String name, String last, double sal)
     {
         firstName = name;
@@ -13,6 +16,7 @@ public class Employee {
             salary = sal;
     }
 
+    // Setter methods
     public void setFirstName(String firstName)
     {
         this.firstName = firstName;
@@ -28,6 +32,7 @@ public class Employee {
         this.salary = salary;
     }
 
+    // Getter methods
     public String getFirstName()
     {
         return firstName;

@@ -1,26 +1,35 @@
 public class Circle {
+    // Declaring the attributes of the Circle class
     private double radius;
     private String color;
 
+    // Declaring the default Constructor
     public Circle()
     {
-        radius = 1.0;
-        color = "red";
+        this.radius = 1.0;
+        this.color = "red";
     }
 
+    // Declaring the overload constructor
     public Circle(double r, String c)
     {
-        radius = r;
-        color = c;
+        this.radius = r;
+        this.color = c;
     }
 
+    // Getter methods
     public double getRadius()
     {
-        return radius;
+        return this.radius;
     }
 
     public double getArea()
     {
-        return (Math.PI * (radius * radius));
+        return (Math.PI * (this.radius * this.radius));
+    }
+
+    public String getColor()
+    {
+        return this.color;
     }
 }
